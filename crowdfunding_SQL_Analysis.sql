@@ -38,7 +38,7 @@ SELECT*FROM email_contacts_remaining_goal_amount;
 -- Create a table, "email_backers_remaining_goal_amount" that contains the email address of each backer in descending order, 
 -- and has the first and last name of each backer, the cf_id, company name, description, 
 -- end date of the campaign, and the remaining amount of the campaign goal as "Left of Goal". 
-DROP TABLE email_backers_remaining_goal_amount;
+--DROP TABLE email_backers_remaining_goal_amount;
 SELECT b.email,
 	b.first_name,
 	b.last_name,
